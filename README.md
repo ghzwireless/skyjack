@@ -1,13 +1,4 @@
-# [SkyJack](http://samy.pl/skyjack)
-
 SkyJack is a drone engineered to autonomously seek out, hack, and wirelessly take full control over any other drones within wireless or flying distance, creating an army of zombie drones under your control.
-
-by [@SamyKamkar](https://twitter.com/samykamkar) // <code@samy.pl> // <http://samy.pl> // Dec 2, 2013
-
-Code available on [github](https://github.com/samyk/skyjack)
-
-----
-
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=EHKV01YQX_w
 " target="_blank">Watch the video here<br><img src="http://img.youtube.com/vi/EHKV01YQX_w/0.jpg" 
@@ -33,7 +24,7 @@ You can acquire SkyJack from github: <https://github.com/samyk/skyjack>
 ### Software
 
 #### SkyJack
-[SkyJack](http://samy.pl/skyjack) (available from github) is primarily a perl application which runs off of a Linux machine, runs aircrack-ng in order to get its wifi card into monitor mode, detects all wireless networks and clients around, deactivates any clients connected to Parrot AR.drones, connects to the now free Parrot AR.Drone as its owner, then uses node.js with node-ar-drone to control zombie drones.
+[SkyJack](https://github.com/ghzwireless/skyjack) (available from github) is primarily a perl application which runs off of a Linux machine, runs aircrack-ng in order to get its wifi card into monitor mode, detects all wireless networks and clients around, deactivates any clients connected to Parrot AR.drones, connects to the now free Parrot AR.Drone as its owner, then uses node.js with node-ar-drone to control zombie drones.
 
 I detect drones by seeking out any wireless connections from MAC addresses owned by the Parrot company, which you can find defined in the [Registration Authority OUI](http://standards.ieee.org/develop/regauth/oui/oui.txt).
 

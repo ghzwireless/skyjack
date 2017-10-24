@@ -1,4 +1,4 @@
-var arDrone = require('..');
+var BebopDrone = require('..');
 var http    = require('http');
 
 var Twit = require('twit');
@@ -11,7 +11,7 @@ var T = new Twit({
   });
 
 
-var client = arDrone.createClient();
+var client = BebopDrone.createClient();
 client.disableEmergency();
 
 console.log('Connecting png stream ...');
